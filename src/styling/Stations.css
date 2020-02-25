@@ -1,0 +1,71 @@
+.title {
+    font-size: x-large;
+    text-align: left;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.list {
+    height: 400px;
+    overflow: auto;
+    display: block;
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.stationName {
+    font-size: larger;
+}
+
+.listView {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:rgb(255,255,255);
+    opacity:0.9;
+    position: absolute;
+    z-index: 99;
+}
+
+.listContent {
+    display: flex;
+}
+
+.bike {
+    flex-direction: column;
+    padding-right: 20px; 
+    margin-top: 10px;
+}
+
+.stationDetails {
+    flex-direction: row;
+}
+
+.bubble{
+    font-family: sans-serif; 
+    background:white;
+    z-index: 1000000;
+    position: absolute;
+    text-align: center;
+    opacity: 1;
+}
+
+.bubbleText{
+    color:black; 
+    padding:0px 15px;  
+    width:200px;
+}
+
+.customMarker {
+    width: 15px; 
+    height: 15px;
+    font-size: 7px;
+    background-color: #ffa5a3;
+    border-radius: 10px;
+    vertical-align: middle; 
+    text-align: center;
+}
